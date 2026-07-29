@@ -46,11 +46,52 @@ A convergent mixed-methods design:
 
 ## Figures
 
-| Figure | Script | What it shows |
-|---|---|---|
-| 1. Forest plot | `R_scripts/01_forest_plot.R` | Callback ratios from seven cross-national name-based hiring audit studies (2004 to 2023), majority over minority, log scale |
-| 2. Language composition | `R_scripts/02_language_composition.R` | Language shares of two LLM-substrate corpora. Common Crawl 2026 is 41% English and 0.66% Arabic; the GPT-3 training corpus is 93% English |
-| 3. Impossibility demonstration | `R_scripts/03_impossibility_demo.R` | Independence, separation and sufficiency parity ratios across 31 classification thresholds on COMPAS, against the 4/5ths-rule band |
+Figure numbering follows the paper. Each figure is produced by the script named beneath it.
+
+### Figure 3. The impossibility theorem, demonstrated on COMPAS
+
+![Three group-fairness parity ratios across 31 classification thresholds on the COMPAS dataset, log y-axis. Independence and separation diverge upward away from the 4/5ths-rule band as the threshold rises, while sufficiency stays near parity.](figures/fig3_impossibility_demo.png)
+
+`R_scripts/03_impossibility_demo.R`
+
+The internal critique, made concrete. A single logistic regression on COMPAS, filtered to the
+African-American and Caucasian subgroups (n = 5,278, base rates 52.3% and 39.1%), evaluated at 31
+thresholds from 0.20 to 0.80. Independence, separation and sufficiency are plotted as parity ratios
+against the 4/5ths-rule band (0.8 to 1.25) that US disparate-impact jurisprudence uses to trigger
+scrutiny.
+
+**All three criteria fall inside the band at only 3 of 31 thresholds (t = 0.22, 0.24, 0.26).**
+Above 0.26 the trade-off is forced. At the default cutoff of 0.5, independence sits near 2.1x and
+separation near 1.75x, both far outside the band, while sufficiency remains close to parity. This
+is the arithmetic that Article 10 instructs deployers to mitigate without saying which criterion to
+sacrifice.
+
+### Figure 1. Audit-study evidence of name-based hiring discrimination
+
+![Forest plot of seven cross-national hiring audit studies, 2004 to 2023, showing callback ratios of majority over minority applicants on a log scale. Every point estimate sits above parity, ranging from about 1.36x to 2.5x.](figures/fig1_forest_plot.png)
+
+`R_scripts/01_forest_plot.R`
+
+The external critique's empirical baseline. Seven cross-national audit studies of name-based hiring
+discrimination in Western labour markets, plotted as the callback ratio of majority over minority
+applicants on a log scale, with the dashed line at parity. Every point estimate lies above parity,
+from roughly 1.36x in the Quillian et al. (2017) meta-analysis to 2.5x in Adida, Laitin and Valfort
+(2010) for Muslim versus Christian Senegalese applicants in France. Two Spanish data points are
+included (Ramos et al. 2021; Polavieja et al. 2023). The Wilson and Caliskan (2024) LLM audit uses
+a non-comparable preference-ratio metric and is discussed in the text rather than plotted.
+
+### Figure 2. Language composition of two LLM-substrate corpora
+
+![Paired bar charts comparing language shares in Common Crawl 2026 and the GPT-3 training corpus. English dominates both at 41.02% and 92.65%; Arabic is 0.66% and 0.03% respectively.](figures/fig2_language_composition.png)
+
+`R_scripts/02_language_composition.R`
+
+Why the substrate defeats Article 10's representativeness requirement before any deployer makes a
+choice. Common Crawl 2026 (snapshot CC-MAIN-2026-17) is 41.02% English and 0.66% Arabic; the GPT-3
+training corpus is 92.65% English and 0.03% Arabic. That is an English-to-Arabic ratio of 62:1 and
+3,088:1 respectively. Turkish sits at 1.30% and 0.06%. The two corpora use different units, pages
+against words, so the panels are not comparable bar for bar. The training-data composition of GPT-4,
+Claude 3.5 and Llama 3 has not been publicly disclosed.
 
 ## Reproducing
 
