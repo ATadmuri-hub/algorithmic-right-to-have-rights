@@ -1,0 +1,19 @@
+# LaTeX build artifacts
+build/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+Rplots.pdf
+
+# macOS
+.DS_Store
