@@ -30,8 +30,7 @@ systems, which include recruitment and candidate evaluation under point 4 and cr
 under point 5(b), have themselves been deferred to 2 December 2027.
 
 The asymmetry survives but narrows. The gap between when the hiring rules bind and when the
-border systems must comply falls from sixteen months short of four years and five months down to
-three years. Migration and asylum infrastructure remains the last category in the regulation to
+border systems must comply falls from about four years and five months to just over three years. Migration and asylum infrastructure remains the last category in the regulation to
 be brought into compliance: 31 December 2030, against 2 December 2027 for Annex III, 2 August 2028
 for Annex I, and 2 August 2030 for legacy high-risk systems used by public authorities under
 Article 111(2).
@@ -68,7 +67,7 @@ The paper's two load-bearing arguments do not depend on the timeline.
 - **Article 10.** The representativeness requirement and the critique of it stand; deferring the
   date on which it binds does not change what it asks for or the mathematics of delivering it.
 
-If anything, a deferral of the hiring rules by nineteen months is a further instance of the
+If anything, a deferral of the hiring rules by sixteen months is a further instance of the
 pattern Section 7 names rather than a refutation of it. That is a claim the paper did not make
 and could not have made, and it is offered here as an observation, not as a repair.
 
