@@ -6,9 +6,11 @@ argument, and what it leaves untouched. The paper itself is left as submitted.
 
 ## What changed
 
-The **Digital Omnibus on AI** amends the AI Act's application dates. EU institutions reached a
-provisional political agreement on 6 May 2026; the European Parliament adopted the package on
-16 June 2026 and the Council on 29 June 2026, with entry into force in July 2026.
+The **Digital Omnibus on AI, Regulation (EU) 2026/1744**, amends the AI Act's application dates.
+A provisional political agreement was reached on 6 May 2026, two weeks before this paper was
+submitted. The regulation was published in the Official Journal on **24 July 2026** and entered
+into force on **27 July 2026**, three days after publication, in view of the AI Act's imminent
+general application date of 2 August 2026.
 
 | Obligation | Original date | Amended date |
 |---|---|---|
@@ -16,7 +18,8 @@ provisional political agreement on 6 May 2026; the European Parliament adopted t
 | High-risk AI embedded in regulated products (Annex I) | 2 August 2027 | **2 August 2028** |
 | Transparency obligations (Art. 50) | 2 August 2026 | unchanged |
 | Prohibitions, GPAI, AI literacy | already applicable | unchanged |
-| **Large-scale IT systems for migration, asylum and borders (Annex X, Art. 111)** | 31 December 2030 | **unchanged** |
+| Legacy high-risk systems used by public authorities (Art. 111(2)) | 2 August 2030 | unchanged |
+| **Large-scale IT systems for migration, asylum and borders (Annex X, Art. 111(1))** | 31 December 2030 | **unchanged** |
 
 ## What this does to Section 7
 
@@ -27,12 +30,22 @@ systems, which include recruitment and candidate evaluation under point 4 and cr
 under point 5(b), have themselves been deferred to 2 December 2027.
 
 The asymmetry survives but narrows. The gap between when the hiring rules bind and when the
-border systems must comply falls from roughly four years and four months to roughly three years.
-Migration and asylum infrastructure remains the last category in the regulation to be brought
-into compliance, and it remains the only one whose deadline the Omnibus did not touch. The
-claim the paper should now make is comparative rather than exclusive: migration systems are not
-uniquely deferred, they are deferred longest, and they were not revisited when everything around
-them was.
+border systems must comply falls from sixteen months short of four years and five months down to
+three years. Migration and asylum infrastructure remains the last category in the regulation to
+be brought into compliance: 31 December 2030, against 2 December 2027 for Annex III, 2 August 2028
+for Annex I, and 2 August 2030 for legacy high-risk systems used by public authorities under
+Article 111(2).
+
+A precision worth stating, since the paper turns on this article. **Article 111 was itself amended
+by the Omnibus**, but the amendment adds a new paragraph 4 imposing an Article 50(2)
+machine-readable marking obligation, by 2 December 2026, on providers of systems generating
+synthetic content that were placed on the market before 2 August 2026. It is a watermarking
+transition rule. The Annex X compliance deadline in Article 111(1) is not among the dates the
+Omnibus moved.
+
+The claim the paper should now make is comparative rather than exclusive: migration systems are
+not uniquely deferred, they are deferred longest, and their deadline did not move when the ones
+around it did.
 
 ## What is untouched
 
@@ -52,8 +65,14 @@ and could not have made, and it is offered here as an observation, not as a repa
 
 ## Sources
 
+- Regulation (EU) 2026/1744, Official Journal, 24 July 2026:
+  https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng
 - European Commission, AI Act Service Desk, implementation timeline:
   https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act
+- European Commission, AI Act Service Desk, Article 111 (text as displayed still reads
+  31 December 2030, with a notice that the page does not yet reflect the Omnibus amendments):
+  https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111
+- Lewis Silkin, *The Digital Omnibus on AI enters into force today*, 27 July 2026
 - Freshfields, *The final Digital Omnibus on AI: key amendments to the AI Act*
 - Gibson Dunn, *EU AI Act Omnibus Agreement: postponed high-risk deadlines and other key changes*
-- Article 111 and Annex X, Regulation (EU) 2024/1689
+- Articles 111 and 113 and Annex X, Regulation (EU) 2024/1689
