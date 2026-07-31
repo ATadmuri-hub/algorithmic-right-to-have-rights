@@ -30,7 +30,7 @@ systems, which include recruitment and candidate evaluation under point 4 and cr
 under point 5(b), have themselves been deferred to 2 December 2027.
 
 The asymmetry survives but narrows. The gap between when the hiring rules bind and when the
-border systems must comply falls from about four years and five months to just over three years. Migration and asylum infrastructure remains the last category in the regulation to
+border systems must comply falls from four years and four months to three years. Migration and asylum infrastructure remains the last category in the regulation to
 be brought into compliance: 31 December 2030, against 2 December 2027 for Annex III, 2 August 2028
 for Annex I, and 2 August 2030 for legacy high-risk systems used by public authorities under
 Article 111(2).
