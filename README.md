@@ -10,7 +10,8 @@ Science (UC3M). Awarded Matrícula de Honor.
 > **Note on the legal timeline.** The paper was submitted on 22 May 2026. The **Digital Omnibus on
 > AI, Regulation (EU) 2026/1744**, in force since 27 July 2026, has since deferred stand-alone
 > Annex III high-risk obligations from 2 August 2026 to **2 December 2027**. This narrows the asymmetry Section 7 analyses, though the
-> Annex X migration and border systems remain at **31 December 2030** and were not revisited. The
+> Annex X migration and border systems remain at **31 December 2030**, the latest deadline in the
+> regulation. The
 > impossibility result, the audit-study evidence and the Arendtian argument are unaffected. See
 > **[ADDENDUM.md](ADDENDUM.md)** for the full record. The paper is left as submitted.
 
@@ -27,7 +28,7 @@ fails along two homologous axes.
 **Internally**, the Chouldechova and Kleinberg-Mullainathan-Raghavan impossibility theorem proves
 that no classifier can jointly satisfy independence, separation and sufficiency when subgroup base
 rates differ. The choice among the three is political, not technical, and Article 10 cannot tell a
-deployer which to satisfy.
+provider which to satisfy.
 
 **Externally**, Arendt's analysis of the "right to have rights" (1951) shows that the polity
 producing those base rates has already excluded the populations whose protection the regime most
@@ -70,7 +71,7 @@ scrutiny.
 **All three criteria fall inside the band at only 3 of 31 thresholds (t = 0.22, 0.24, 0.26).**
 Above 0.26 the trade-off is forced. At the default cutoff of 0.5, independence sits near 2.1x and
 separation near 1.75x, both far outside the band, while sufficiency remains close to parity. This
-is the arithmetic that Article 10 instructs deployers to mitigate without saying which criterion to
+is the arithmetic that Article 10 instructs providers to mitigate without saying which criterion to
 sacrifice.
 
 ### Figure 1. Audit-study evidence of name-based hiring discrimination

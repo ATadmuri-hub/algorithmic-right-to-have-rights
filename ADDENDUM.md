@@ -47,6 +47,15 @@ The claim the paper should now make is comparative rather than exclusive: migrat
 not uniquely deferred, they are deferred longest, and their deadline did not move when the ones
 around it did.
 
+## A second, unrelated correction
+
+Section 4 of the paper writes that "Article 10 tells deployers to detect, prevent and mitigate
+possible biases". Article 10 sits in Chapter III, Section 2, whose requirements bind **providers**
+of high-risk AI systems by way of Article 16. Deployer obligations are set out in Article 26, and
+the Fundamental Rights Impact Assessment in Article 27 is genuinely a deployer duty. The
+substantive argument is unaffected, since the point is that the provision cannot specify which
+fairness criterion to satisfy, but the addressee is misnamed.
+
 ## What is untouched
 
 The paper's two load-bearing arguments do not depend on the timeline.
