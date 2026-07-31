@@ -7,6 +7,13 @@ Abdullah Tadmuri · Universidad Carlos III de Madrid · May 2026
 Final paper for *Social and Ethical Issues of Big Data and AI*, MSc in Computational Social
 Science (UC3M). Awarded Matrícula de Honor.
 
+> **Note on the legal timeline.** The paper was submitted on 22 May 2026. The **Digital Omnibus on
+> AI**, adopted in June 2026, has since deferred stand-alone Annex III high-risk obligations from
+> 2 August 2026 to **2 December 2027**. This narrows the asymmetry Section 7 analyses, though the
+> Annex X migration and border systems remain at **31 December 2030** and were not revisited. The
+> impossibility result, the audit-study evidence and the Arendtian argument are unaffected. See
+> **[ADDENDUM.md](ADDENDUM.md)** for the full record. The paper is left as submitted.
+
 ---
 
 ## Summary
